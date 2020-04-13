@@ -1,6 +1,6 @@
 body {
     padding: 1em;
-    background: #edaa0c;
+    background: #e6e6e6;
     font-family: sans-serif;
     font-family: 'Kanit', sans-serif;
 }
@@ -8,10 +8,9 @@ body {
 mobile {
     display: flex;
     flex-flow: column nowrap;
-    background-image: url("food-bg.png");
     margin: auto;
     width: 414px;
-    height: 736px;
+    height: 80em;
     box-shadow: 0px 12px 24px #0004;
 }
 
@@ -25,12 +24,13 @@ mobile {
 }
 
 #myBTN {
-    margin-top: 50%;
+    margin-top: 2%;
 }
 
 #content {
     margin: 20px;
     cursor: pointer;
+    margin-top: -8px;
 }
 
 .crop {
@@ -40,9 +40,62 @@ mobile {
 }
 
 .cropcontent {
-    width: 412px;
+    width: 414px;
     height: 160px;
     object-fit: cover;
 }
 
-.ldcontent {}
+#elm1 {
+    margin-top: 5px;
+    width: 414px;
+    height: 350px;
+    background-color: rgb(245, 245, 245);
+    box-shadow: 0px 5px 5px #0004;
+}
+
+#elm2 {
+    margin-top: 5px;
+    width: 414px;
+    height: 42em;
+    background-color: rgb(238, 238, 238);
+    box-shadow: 0px 5px 5px #0004;
+}
+
+.icrop {
+    width: 90px;
+    height: 90px;
+    object-fit: cover;
+    box-shadow: 0px 5px 5px #0004;
+}
+
+.cropcontent_lp {
+    width: 404px;
+    height: 80px;
+    object-fit: cover;
+}
+
+.btn {
+    background-color: rgb(231, 164, 39);
+    /* Blue background */
+    border: none;
+    /* Remove borders */
+    color: white;
+    /* White text */
+    padding: 12px 16px;
+    /* Some padding */
+    font-size: 16px;
+    /* Set a font size */
+    cursor: pointer;
+    /* Mouse pointer on hover */
+}
+
+
+/* Darker background on mouse-over */
+
+.btn:hover {
+    background-color: RoyalBlue;
+}
+
+#content_ldp {
+    margin: 4px;
+}
